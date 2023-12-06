@@ -9,7 +9,7 @@ class PostSerializer(serializers.ModelSerializer):
         # fields = ['title']  # If you only want to pass the title field
 
 
-class CommentSerializer(serializers.Serializer):
-    email = serializers.EmailField()
-    content = serializers.CharField(max_length=200)
-    created = serializers.DateTimeField()
+# class CommentSerializer(serializers.Serializer):
+#     email = serializers.EmailField()
+#     content = serializers.CharField(max_length=200)
+#     created = serializers.DateTimeField()
